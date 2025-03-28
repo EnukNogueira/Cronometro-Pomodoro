@@ -25,19 +25,20 @@ Este é um aplicativo de cronômetro Pomodoro desenvolvido em Python usando a bi
 
 ## Como Usar
 
-### Clone o Repositório ou baixe:
+### Clone o Repositório ou baixe para executar o exe:
 
 ```bash
 git clone https://github.com/EnukNogueira/pomodoro.git
+Execute o programa: python pomodoro.py
 
 Se você deseja executar o programa como um arquivo .exe (sem precisar do Python instalado), siga os passos abaixo:
 
-Como acessar o arquivo executável:
+1. Como acessar o arquivo executável:
 O arquivo .exe já foi gerado e está disponível na seguinte pasta:
 
 Caminho: dist/pomodoro.exe
 
-Clique duas vezes no arquivo pomodoro.exe para executar o programa. O cronômetro será iniciado e exibido em uma janela gráfica.
+2. Clique duas vezes no arquivo pomodoro.exe para executar o programa. O cronômetro será iniciado e exibido em uma janela gráfica.
 
 Caso encontre algum problema ao executar o arquivo, verifique se todos os arquivos necessários estão presentes na mesma pasta ou entre em contato comigo.
 
