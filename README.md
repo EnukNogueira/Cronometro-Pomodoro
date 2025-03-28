@@ -23,6 +23,11 @@ Este é um aplicativo de cronômetro Pomodoro desenvolvido em Python usando a bi
 - **Python 3.x**
 - **Tkinter** pip install tk
 
+ ## Capturas de Tela
+
+### Tela Inicial
+![Tela Inicial](imagens/Projeto_Pomodoro.png)
+
 ## Como Usar
 
 ### Clone o Repositório ou baixe para executar o exe:
