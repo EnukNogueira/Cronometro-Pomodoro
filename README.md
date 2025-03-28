@@ -21,7 +21,7 @@ Este é um aplicativo de cronômetro Pomodoro desenvolvido em Python usando a bi
 ## Requisitos
 
 - **Python 3.x**
-- **Tkinter** (já incluído na maioria das distribuições do Python)
+- **Tkinter** pip install tk
 
 ## Como Usar
 
