@@ -39,16 +39,6 @@ Caminho: dist/pomodoro.exe
 
 Clique duas vezes no arquivo pomodoro.exe para executar o programa. O cronômetro será iniciado e exibido em uma janela gráfica.
 
-Passos para encontrar o arquivo:
-Navegue até o diretório acima no seu computador.
-
-Dentro da pasta dist, localize o arquivo chamado pomodoro.exe.
-
-Clique duas vezes no arquivo pomodoro.exe para executar o programa.
-
-Observações
-Certifique-se de que você possui permissão para acessar a pasta onde o arquivo está localizado.
-
 Caso encontre algum problema ao executar o arquivo, verifique se todos os arquivos necessários estão presentes na mesma pasta ou entre em contato comigo.
 
 Autor
