@@ -40,11 +40,13 @@ class CronometroPomodoro:
 
         self.running = True
         self.reps += 1
-        if self.reps % 8 == 0:  # Após 4 Pomodoros, pausa longa
+
+        # Alterna entre trabalho, pausas curtas e pausas longas
+        if self.reps % 8 == 0:  # Após 4 ciclos de trabalho, pausa longa
             self.cronometro(self.long_break_time, "Pausa Longa", "#ff9800")
-        elif self.reps % 2 == 0:  # Após cada Pomodoro, pausa curta
+        elif self.reps % 2 == 0:  # Após cada ciclo de trabalho, pausa curta
             self.cronometro(self.break_time, "Pausa Curta", "#03a9f4")
-        else:
+        else:  # Ciclo de trabalho
             self.cronometro(self.work_time, "Trabalhar!", "#4caf50")
 
     def cronometro(self, count, label_text, color):
@@ -60,10 +62,13 @@ class CronometroPomodoro:
             self.running = False
             if label_text == "Trabalhar!":
                 messagebox.showinfo("Pomodoro completado", "Hora de descansar!")
+                self.comecar_cronometro()  # Inicia a pausa curta automaticamente
             elif label_text == "Pausa Curta":
                 messagebox.showinfo("Descanso acabou!", "Volte ao trabalho!")
+                self.comecar_cronometro()  # Inicia o próximo ciclo de trabalho
             elif label_text == "Pausa Longa":
                 messagebox.showinfo("Pausa longa acabou", "Volte ao trabalho!")
+                self.comecar_cronometro()  # Reinicia o ciclo de trabalho
 
     def reiniciar_tempo(self):
         if self.timer_id:
