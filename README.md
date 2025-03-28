@@ -28,6 +28,9 @@ Este é um aplicativo de cronômetro Pomodoro desenvolvido em Python usando a bi
 ### Tela Inicial
 ![Tela Inicial](imagens/Projeto_Pomodoro.png)
 
+### Cronômetro em Execução
+![Cronômetro em Execução](pomodoro.gif)
+
 ## Como Usar
 
 ### Clone o Repositório ou baixe para executar o exe:
